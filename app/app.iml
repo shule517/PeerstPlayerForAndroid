@@ -55,7 +55,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/assets" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/aidl" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/jni" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
@@ -90,8 +89,20 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 22 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="support-v4-22.2.1" level="project" />
+    <orderEntry type="library" exported="" name="ffmpeg-2.5.1-0.10" level="project" />
+    <orderEntry type="library" exported="" name="javacpp" level="project" />
+    <orderEntry type="library" exported="" name="flandmark-1.07-0.10" level="project" />
+    <orderEntry type="library" exported="" name="javacv-0.10" level="project" />
+    <orderEntry type="library" exported="" name="javacv" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-22.2.1" level="project" />
+    <orderEntry type="library" exported="" name="libfreenect-0.5.1-0.10" level="project" />
+    <orderEntry type="library" exported="" name="videoinput-0.200-0.10" level="project" />
+    <orderEntry type="library" exported="" name="flycapture-2.7.3.13-0.10" level="project" />
+    <orderEntry type="library" exported="" name="opencv-2.4.10-0.10" level="project" />
+    <orderEntry type="library" exported="" name="artoolkitplus-2.3.1-0.10" level="project" />
+    <orderEntry type="library" exported="" name="support-v4-22.2.1" level="project" />
+    <orderEntry type="library" exported="" name="javacpp-0.10" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-22.2.1" level="project" />
+    <orderEntry type="library" exported="" name="libdc1394-2.2.2-0.10" level="project" />
   </component>
 </module>

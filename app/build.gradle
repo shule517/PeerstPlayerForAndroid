@@ -4,6 +4,12 @@ android {
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
 
+    sourceSets {
+        main {
+            jni.srcDirs = []
+            jniLibs.srcDirs = ['src/main/libs', 'src/main/jniLibs'] // Here!
+        }
+    }
     defaultConfig {
         applicationId "shule517.peerstplayerforandroid"
         minSdkVersion 14
@@ -22,4 +28,5 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'org.bytedeco:javacv:0.10'
 }
